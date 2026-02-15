@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating my_robot.egg-info
+writing my_robot.egg-info/PKG-INFO
+writing dependency_links to my_robot.egg-info/dependency_links.txt
+writing requirements to my_robot.egg-info/requires.txt
+writing top-level names to my_robot.egg-info/top_level.txt
+writing manifest file 'my_robot.egg-info/SOURCES.txt'
+reading manifest file 'my_robot.egg-info/SOURCES.txt'
+writing manifest file 'my_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/lib/python3.12/site-packages/my-robot.egg-link (link to .)
+
+Installed /home/rupendra/ros2_jazzy/src/my_robot/build/my_robot
+running symlink_data
+creating /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/ament_index
+creating /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/ament_index/resource_index
+creating /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/ament_index/resource_index/packages
+symbolically linking /home/rupendra/ros2_jazzy/src/my_robot/build/my_robot/resource/my_robot -> /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/ament_index/resource_index/packages
+symbolically linking /home/rupendra/ros2_jazzy/src/my_robot/build/my_robot/package.xml -> /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/my_robot
+creating /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/my_robot/launch
+symbolically linking /home/rupendra/ros2_jazzy/src/my_robot/build/my_robot/launch/rsp.launch.py -> /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/my_robot/launch
+symbolically linking /home/rupendra/ros2_jazzy/src/my_robot/build/my_robot/launch/my_robot.launch.py -> /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/my_robot/launch
+creating /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/my_robot/description
+symbolically linking /home/rupendra/ros2_jazzy/src/my_robot/build/my_robot/description/inertial_macros.xacro -> /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/my_robot/description
+symbolically linking /home/rupendra/ros2_jazzy/src/my_robot/build/my_robot/description/my_robot_core.xacro -> /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/my_robot/description
+symbolically linking /home/rupendra/ros2_jazzy/src/my_robot/build/my_robot/description/my_robot.urdf.xacro -> /home/rupendra/ros2_jazzy/src/my_robot/install/my_robot/share/my_robot/description
