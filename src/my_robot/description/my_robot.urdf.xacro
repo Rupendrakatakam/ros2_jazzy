@@ -4,5 +4,7 @@
 
     <xacro:include filename="my_robot_core.xacro"/>
     <xacro:include filename="gz_control.xacro"/>
+    <xacro:include filename="lidar.xacro"/>
+    
     
 </robot>

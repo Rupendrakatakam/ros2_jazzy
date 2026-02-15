@@ -62,7 +62,7 @@ def generate_launch_description():
     # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
     spawn_entity = Node(package='ros_gz_sim', executable='create',
                         arguments=['-topic', 'robot_description',
-                                   '-entity', 'my_robot'],
+                                   '-entity', 'my_robot','-z', '0.15'],
                         output='screen')
 
     # Launch them all!
