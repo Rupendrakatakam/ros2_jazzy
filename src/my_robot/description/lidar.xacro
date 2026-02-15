@@ -4,7 +4,7 @@
     <joint name="lidar_joint" type="fixed">
         <parent link="base_link"/>
         <child link="lidar_link"/>
-        <origin xyz="0.22 0 0.175" rpy="0 0 0"/>
+        <origin xyz="0.14 0 0.175" rpy="0 0 0"/>
     </joint>
     
     <link name="lidar_link">
@@ -61,11 +61,6 @@
         </sensor>
     </gazebo>
 
-    <gazebo>
-        <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
-        <render_engine>ogre2</render_engine>
-        <rendering_system>ogre2</rendering_system>
-        </plugin>
-    </gazebo>
+
     
 </robot>
