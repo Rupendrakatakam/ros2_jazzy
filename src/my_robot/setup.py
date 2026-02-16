@@ -15,7 +15,7 @@ setup(
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
         (os.path.join('share', package_name, 'description'), glob('description/*.xacro')),
         (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
-        (os.path.join('share', package_name, 'worlds'), glob(os.path.join('worlds', '*.world'))),
+        (os.path.join('share', package_name, 'meshes'), glob('meshes/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
