@@ -41,7 +41,7 @@
             <pose relative_to="lidar_link"> 0 0 0 0 0 0 </pose>
             <visualize>true</visualize>
             <update_rate>10</update_rate>
-            <topic>scan</topic>
+            <topic>/scan</topic>
             <gz_frame_id>lidar_link</gz_frame_id>
             <lidar>
                 <scan>

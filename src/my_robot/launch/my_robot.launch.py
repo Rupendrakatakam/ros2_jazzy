@@ -44,7 +44,7 @@ def generate_launch_description():
     
     # Include the Gazebo launch file, provided by the gazebo_ros package
     # Path to default world 
-    world_path = os.path.join(get_package_share_directory(package_name),'worlds', 'obstrucle.world')
+    world_path = os.path.join(get_package_share_directory(package_name),'worlds', 'world.sdf')
 
     # Launch Arguments
     declare_world = DeclareLaunchArgument(
